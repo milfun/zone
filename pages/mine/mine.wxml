@@ -1,0 +1,13 @@
+<view class="contain">
+  <!-- 广告位 -->
+  <view>
+
+  </view>
+  
+  
+</view>
+
+    <button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
+    <button bindtap="hddb" class="hddb">
+        <image src="../public/images/totop.png"></image>
+    </button>

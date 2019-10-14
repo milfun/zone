@@ -1,0 +1,77 @@
+<view class="contain">
+  <!-- 广告位 -->
+  <view class="ad">
+    <image class="ad-img" src="../public/images/ad.jpg"></image>
+  </view>
+  <!-- 广告位 END-->
+  <!--菜单-->
+  <view class="menu">
+    <view class="menu-item"  wx:for="{{menu}}" wx:key="item">
+      <image class="menu-img" src="{{item.src}}"></image>
+      {{item.name}}
+    </view>
+  </view>
+  <view class="holder"></view>
+  <!--物品列表-->
+  <view class="list">
+    <view class="list-item">
+      <view class="list-title">
+        今日值得买<text class="list-more">更多</text>
+      </view>
+      <!--循环 STAR-->
+      <view class="list-box">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!---->
+      <view class="list-box">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!--循环 END-->
+      
+    </view>
+    
+  </view>
+  <!--物品列表 END-->
+
+  <view class="holder"></view>
+  <!--物品列表-->
+  <view class="list">
+    <view class="list-item">
+      <view class="list-title">
+        限时美食特惠<text class="list-more">更多</text>
+      </view>
+      <!-- 广告位 -->
+      <view class="ad">
+        <image class="ad-img" src="../public/images/ad.jpg"></image>
+      </view>
+      <!-- 广告位 END-->
+      <!--循环 STAR-->
+      <view class="list-box">
+          <image class="list-img2" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!---->
+      <view class="list-box">
+          <image class="list-img2" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!--循环 END-->
+      
+    </view>
+    
+  </view>
+  <!--物品列表 END-->
+
+</view>
+
+<button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
+<button bindtap="hddb" class="hddb">
+    <image src="../public/images/totop.png"></image>
+</button>
+

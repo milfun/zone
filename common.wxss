@@ -1,0 +1,52 @@
+page{margin:0;max-width:750rpx;min-height:100%;min-width:320rpx;margin:0 auto;color:#333;background-color:#f2f2f2;-webkit-overflow-scrolling:touch;font-size:30rpx;}
+h1,h2,h3,h4,h5,form,p,ul,input{margin:0px;padding:0px;}
+input,textarea{font-family:"microsoft yahei","宋体";font-size:27rpx;color:#333;}
+li{padding:0px;margin:0px;line-height:180%;list-style-type:none;}
+img{border:0px;vertical-align:middle;}
+a{color: #333;text-decoration: none;}
+:focus{outline:0}
+.substring{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.nowrap{white-space:nowrap;}
+.holder{
+  display: block;
+  height: 20rpx;
+}
+.clear{clear:both;height:0px;font-size:0px;line-height:0px;}
+.font_gray6{color:#666666}
+.font_gray9{color:#999999}
+u{text-decoration:none;}
+.qs-center{text-align:center;}
+.qs-hidden{display:none;}
+.qs-show{display:block;}
+.qs-left{float:left;}
+.qs-right{float:right;}
+.mt2{margin-top:20rpx;}
+.mt4{margin-top:40rpx;}
+.mt6{margin-top:60rpx;}
+.mt10{margin-top:100rpx;}
+.txt-color-3{color:#333;}
+.txt-color-9{color:#999;}
+.qs-textarea{display:block;border:0;resize:none;width:100%;color:inherit;line-height:inherit;outline:0;padding:40rpx;}
+/*链接定义*/.link_white a{color:#FFFFFF;text-decoration:none;}
+.link_white a:hover{text-decoration:none;}
+
+.font9{font-size:18rpx}
+.fontag{font-size:22rpx}
+.font10{font-size:23rpx}
+.font12{font-size:25rpx}
+.font13{font-size:27rpx}
+.font14{font-size:30rpx}
+.font15{font-size:32rpx}
+.font16{font-size:34rpx}
+.font18{font-size:38rpx}
+.font20{font-size:46rpx}
+.font24{font-size:56rpx}
+.font28{font-size:65rpx}
+.no-bottom-line{text-decoration:none;}
+.txt-fff{color:#FFF;}
+.txt-9{color:#999;}
+.txt-3{color:#333;}
+.txt-6{color:#333;}
+.contain{
+  width: 100%;
+}

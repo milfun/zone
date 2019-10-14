@@ -1,0 +1,90 @@
+@import '../../common.wxss';
+.menu{
+  height: 100rpx;
+  padding: 0 30rpx;
+  
+  
+}
+.menu-item{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-size: 24rpx;
+  text-align: center;
+}
+.menu-img{
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  padding: 10rpx 30rpx;
+}
+
+.list{
+  display: block;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+}
+.list-item{
+  display: inline-block;
+  float: left;
+}
+.list-title{
+  display: block;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+  padding: 10rpx 0;
+}
+.list-more{
+  font-size: 20rpx;
+  float: right;
+  color: #999;
+}
+.list-box{
+  display: inline-block;
+  width: 48%;
+}
+.list-box:nth-child(2n){
+  float: right;
+}
+.list-info{
+  display: -webkit-box;
+  display: box;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 2rpx solid #ffe300;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+.list-img{
+  width: 100%;
+  height: 180rpx;
+}
+.list-img2{
+  width: 100%;
+  height: 300rpx;
+}
+.list-price{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: red;
+  font-weight: bold;
+}
+.list-sale{
+  float: right;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: normal;
+}
+.ad{
+  display: block;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.ad-img{
+  width: 100%;
+  height: 300rpx;
+}

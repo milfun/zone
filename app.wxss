@@ -1,0 +1,133 @@
+/**app.wxss**/
+
+page {
+  min-height: 100%;
+}
+
+.body {
+  background-color: #f7f7f7;
+  color: #444;
+  font-family: "microsoft yahei";
+  min-height: 100%;
+}
+
+.clear {
+  clear: both;
+  height: 0rpx;
+  font-size: 0rpx;
+  line-height: 0rpx;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+input, textarea {
+  font-family: "microsoft yahei", "宋体";
+  color: #333;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/*底部导航公共样式*/
+
+.foot {
+  height: 110rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.foot .tab {
+  width: 25%;
+  float: left;
+  height: 100%;
+  font-size: 22rpx;
+  text-align: center;
+  padding-top: 10rpx;
+}
+
+.foot .tab image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.foot .tab .tab-sele {
+  color: #bbdef8;
+}
+
+input {
+  display: block;
+  height: 1.4rem;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: UICTFontTextStyleBody;
+  min-height: 1.4rem;
+}
+
+.kefu {
+  position: fixed;
+  right: 20rpx;
+  bottom: 250rpx;
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: black;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 27rpx;
+  padding: 0;
+  z-index: 9999;
+}
+
+.hddb {
+  position: fixed;
+  right: 20rpx;
+  bottom: 150rpx;
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: black;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 27rpx;
+  padding: 0;
+  z-index: 9999;
+}
+
+.hddb image {
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

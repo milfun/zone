@@ -1,0 +1,3 @@
+<view class="body">
+  <map id="map" longitude="{{companyInfo.map_x}}" latitude="{{companyInfo.map_y}}" scale="{{companyInfo.map_zoom}}" bindmarkertap="markertap" bindcontroltap="controltap" markers="{{markers}}" show-location style="width: 100%; height: 100%;"></map>
+</view>

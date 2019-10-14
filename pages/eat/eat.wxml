@@ -1,0 +1,11 @@
+<header>
+  <text>福清</text>
+</header>
+<view class="clear-top"></view>
+<view class="ba">
+</view>
+
+    <button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
+    <button bindtap="hddb" class="hddb">
+        <image src="../public/images/totop.png"></image>
+    </button>

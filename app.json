@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/eat/eat",
+    "pages/map/map",
+    "pages/mine/mine",
+    "pages/play/play",
+    "pages/webview/webview"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffe300",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ffe300",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "pages/public/images/house.png",
+        "iconPath": "pages/public/images/house.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/public/images/thank.png",
+        "iconPath": "pages/public/images/thank.png",
+        "pagePath": "pages/eat/eat",
+        "text": "好吃的"
+      },
+      {
+        "selectedIconPath": "pages/public/images/happy.png",
+        "iconPath": "pages/public/images/happy.png",
+        "pagePath": "pages/play/play",
+        "text": "去哪玩"
+      },
+      {
+        "selectedIconPath": "pages/public/images/mine.png",
+        "iconPath": "pages/public/images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  
+  "navigateToMiniProgramAppIdList": [
+    "wx1f0b7350ead08d57"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
