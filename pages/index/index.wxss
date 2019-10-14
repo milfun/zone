@@ -52,7 +52,6 @@
   display: box;
   height: 80rpx;
   font-size: 28rpx;
-  border: 2rpx solid #ffe300;
   overflow: hidden;
   -webkit-line-clamp: 2;
   line-clamp: 2;

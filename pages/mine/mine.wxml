@@ -1,7 +1,21 @@
 <view class="contain">
   <!-- 广告位 -->
-  <view>
-
+  <view class="user">
+    <view class="user-info">
+      <image class="user-img" src="../public/images/logo.jpg"></image>
+      <text class="user-name">MilFun</text>
+    </view>
+    <view class="user-coin">
+      <image class="coin-img" src="../public/images/coin.png"></image>
+      <text class="coin-txt">我的金币</text>
+    </view>
+    <view class="clear"></view>
+    <view class="vip">
+      <i>ss</i>
+      <text>超级VIP卡</text>
+      <text>会员专享特权·专属商品·好物折扣·</text>
+      <i>ss</i>
+    </view>
   </view>
   
   

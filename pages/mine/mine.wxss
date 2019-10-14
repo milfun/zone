@@ -1,0 +1,56 @@
+@import '../../common.wxss';
+.user{
+  display: block;
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+}
+.user-info{
+  display: inline-block;
+  float: left;
+  height: 100rpx;
+  width: 70%;
+  text-align: left;
+}
+.user-img{
+  display: inline-block;
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+  
+  border-radius: 100rpx;
+}
+.user-name{
+  display: inline-block;
+  float: left;
+  height: 80rpx;
+  margin-left: 20rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  
+  font-weight: bold;
+}
+.user-coin{
+  display: inline-block;
+  float: right;
+  height: 100rpx;
+  width: 15%;
+  align: center;
+  border: 1rpx solid #FFe300;
+}
+.coin-img{
+  display: block;
+  align: center;
+ width: 50rpx;
+ height: 50rpx;
+ border: 1rpx solid #FFe300;
+}
+.coin-txt{font-size: 20rpx;}
+.vip{
+  display: block;
+  margin-top: 30rpx;
+  height: 100rpx;
+  background: #333;
+  color: #ffe300;
+  border-radius: 10rpx;
+  text-align: center;
+}
