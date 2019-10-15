@@ -6,7 +6,9 @@
     "pages/mine/mine",
     "pages/play/play",
     "pages/webview/webview",
-    "pages/regshop/regshop"
+    "pages/regshop/regshop",
+    "pages/partern/partern",
+    "pages/vip/vip"
   ],
   "window": {
     "backgroundTextStyle": "light",

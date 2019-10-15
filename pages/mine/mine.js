@@ -30,7 +30,18 @@ Page({
   onShow: function () {
 
   },
-
+  //加入合伙人
+  join:function(){
+    wx.navigateTo({
+      url: '../partern/partern',
+    })
+  },
+  //加入VIP
+  vip: function () {
+    wx.navigateTo({
+      url: '../vip/vip',
+    })
+  },
   // 下拉刷新回调接口
   onPullDownRefresh: function () {
     this.onLoad()

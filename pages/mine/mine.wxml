@@ -11,7 +11,7 @@
     </view>
     <view class="clear"></view>
     <view class="holder"></view>
-    <view class="vip">
+    <view class="vip" bindtap="vip">
       <image class="vip-icon" src="../public/images/vip2.png"></image>
       <view class="vip-txt substring">
         <text>超级VIP卡</text>
@@ -44,26 +44,26 @@
         <view class="order-title">全部服务</view>
         <view class="line"></view>
         <view class="func-menu">
-             <view class="func-row"><image src="../public/images/comment.png"></image>砍价订单</view>
-            <view class="func-row"><image src="../public/images/discount.png"></image>优惠券</view>
+             <view class="func-row"  bindtap="vip"><image src="../public/images/vipcard.png"></image>开通会员</view>
+            <view class="func-row"><image src="../public/images/discount.png"></image>砍价订单</view>
             <view class="func-row"><image src="../public/images/redpack.png"></image>我的红包</view>
-            <view class="func-row"><image src="../public/images/exchange.png"></image>商品兑换</view>
-            <view class="func-row"><image src="../public/images/partern.png"></image>加入合伙人</view>
+            <view class="func-row"><image src="../public/images/exchange.png"></image>优惠券</view>
+            <view class="func-row"><image src="../public/images/partern.png"></image>商品兑换</view>
             <view class="func-row"><image src="../public/images/msg.png"></image>联系客服</view>
-            <view class="func-row"><image src="../public/images/partern.png"></image>加入合伙人</view>
+            <view class="func-row" bindtap="join"><image src="../public/images/partern.png"></image>加入合伙人</view>
             <view class="func-row"><image src="../public/images/msg.png"></image>联系客服</view>
         </view>
-       
+       <view class="holder"></view>
     </view>
-  <!---->
+  <!-- CopyRight -->
   <view class="holder"></view>
     <view class="copy">
-        <text>V1.0.0</text>
-        <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+        <text>Version 1.0.0</text>
         <text>怪兽研习社 提供技术支持</text>
+        <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
     </view>
-  
-</view>
+  </view>
+  <!-- CopyRight -->
 
     <button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
     <button bindtap="hddb" class="hddb">

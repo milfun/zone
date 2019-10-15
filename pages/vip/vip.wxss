@@ -1,0 +1,145 @@
+/* pages/vip/vip.wxss */
+@import '../../common.wxss';
+.vip-top{
+  background: #ffe971;
+}
+.vip-form{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.vip-title{
+  display: block;
+  padding: 30rpx auto;
+  line-height: 60rpx;
+  width: 100%;
+  font-size: 34rpx;
+  text-align: center;
+}
+.vip-desc{
+  line-height: 50rpx;
+  font-size: 20rpx;
+  text-align: center;
+}
+.vip-card{
+  display: block;
+  height: 120rpx;
+  padding: 10rpx 0;
+  margin: 30rpx;
+  background: #1f1f1f;
+  border-radius: 30rpx 30rpx 0 0;
+  
+}
+.vip-detail{
+  margin-top: -40rpx;
+  padding: 0 30rpx;
+  background: #FFF；
+}
+.vip-detail image{
+  
+  width: 100%;
+}
+.vip-row{
+  display:block;
+  width: 90%;
+  height: 80rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+  text-align:left;
+  color: #ffe971;
+  border-radius: 10rpx;
+}
+.vip-left{
+  display:block;
+  float: left;
+  margin-right: 20rpx;
+  width: 30%;
+}
+.vip-else{
+  font-size: 20rpx;
+}
+.vip-right{
+  display: inline-block;
+  float: right;
+  border: 1rpx solid #ffe971;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+}
+.vip-right text{
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 10rpx;
+  color: #1f1f1f;
+  background: #ffe971;
+  font-size: 24rpx;
+  border-radius:0 30rpx 30rpx 0;
+}
+
+.getphone{
+  display: inline-block;
+  float: right;
+  padding: 0 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  background: #ffe971;
+  border-radius: 0 10rpx 10rpx 0 ;
+}
+.reg-sub{
+  display: block;
+  margin-top: 30rpx;
+  width: 100%;
+  color: #1f1f1f;
+  background: #ffe971;
+  border: none;
+}
+.wechat{
+  display: block;
+  margin: 0 40rpx;
+  margin-top: 30rpx;
+  height: 120rpx;
+  background: #f2f2f2;
+  border-radius: 10rpx;
+}
+.wechat image{
+  display: inline-block;
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx 20rpx;
+  border-radius: 150rpx;
+}
+.info{
+  display: inline-block;
+  float: left;
+  height: 120rpx;
+  
+  
+}
+.left-info{
+  display: inline-block;
+  padding: 15rpx 0;
+  width: 100%;
+  line-height: 50rpx;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.left-info text{
+  display: block;
+  color: #999;
+  font-size: 26rpx;
+  line-height: 30rpx;
+  font-weight: normal;
+}
+.right-info{
+  display: inline-block;
+  position: relative;
+  right: 0;
+  float: right;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+  padding: 10rpx 20rpx;
+  background: #ffe971;
+  font-size: 24rpx;
+}

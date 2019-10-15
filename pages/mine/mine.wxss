@@ -136,7 +136,7 @@
 }
 .func{
   display: block;
-  height: 350rpx;
+  height: 380rpx;
   margin: 0 30rpx;
   background: #FFF;
   border-radius: 10rpx;
@@ -150,12 +150,11 @@ margin-top: 20rpx;
   display: inline-block;
   width: 25%;
   margin: 20rpx 0;
-  
   font-size: 24rpx;
 }
 .func-row image{
   display: block;
   width: 50rpx;
   height: 50rpx;
-  margin: 0 auto;
+  margin: 20rpx auto;
 }

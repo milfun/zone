@@ -1,2 +1,36 @@
 <!--pages/regshop/regshop.wxml-->
-<text>pages/regshop/regshop.wxml</text>
+<view class="reg-ban">
+  <image src="../public/images/regshop.jpg"></image>
+</view>
+<view class="contain">
+  <view class="ref-form">
+      <view class="reg-title">填写入驻信息</view>
+      <view class="reg-row">
+          <input type="text" placeholder="请输入您的姓名"></input>
+      </view>
+      <view class="reg-row">
+          <input type="tel" placeholder="请输入手机号"></input>
+          <text class="getphone">一键获取</text>
+      </view>
+      <view class="reg-row">
+          <input type="text" placeholder="请输入商家名称"></input>
+      </view>
+      <view class="reg-row">
+         <input type="text" placeholder="获取商家位置信息" disabled></input>
+          <text class="getphone">一键获取</text>
+      </view>
+      <view class="reg-row">
+          <input type="text" placeholder="请输入详细地址"></input>
+      </view>
+      <button class="reg-sub">提交信息</button>
+  </view>
+
+  <view class="holder"></view>
+  <view class="copy">
+        <text>Version 1.0.0</text>
+        <text>怪兽研习社 提供技术支持</text>
+        <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+        
+    </view>
+
+</view>

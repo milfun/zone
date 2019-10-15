@@ -71,6 +71,14 @@
   </view>
   <!--物品列表 END-->
 
+  <!-- CopyRight -->
+  <view class="holder"></view>
+  <view class="copy">
+      <text>Version 1.0.0</text>
+      <text>怪兽研习社 提供技术支持</text>
+      <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+  </view>
+  <!-- CopyRight -->
 </view>
 
 <button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>

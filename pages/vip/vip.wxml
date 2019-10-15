@@ -1,0 +1,38 @@
+<!--pages/vip/vip.wxml-->
+<view class="contain">
+  <view class="vip-form">
+    <view class="vip-top">
+      <view class="vip-title">超级VIP卡</view>
+      <view class="vip-desc">10999人已加入会员</view>
+      <view class="vip-card">
+          <view class="vip-row">
+            <view class="vip-left">
+                超级VIP卡
+                <view class="clear"></view>
+                <text class="vip-else">加入会员·马上省钱</text>
+            </view>
+            <view class="vip-right">
+                ￥99.00/365天
+                <text>立即开通</text>
+            </view>
+          </view>
+      </view>
+    </view>
+     <!---->
+      <view class="vip-detail">
+        <image src="../public/images/vip-detail.jpg"></image>
+        <button class="reg-sub">立即开通</button>
+      </view>
+    
+  </view>
+   
+
+  <view class="holder"></view>
+  <view class="copy">
+        <text>Version 1.0.0</text>
+        <text>怪兽研习社 提供技术支持</text>
+        <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+        
+    </view>
+
+</view>
