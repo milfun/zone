@@ -5,17 +5,18 @@
     "pages/map/map",
     "pages/mine/mine",
     "pages/play/play",
-    "pages/webview/webview"
+    "pages/webview/webview",
+    "pages/regshop/regshop"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffe300",
+    "navigationBarBackgroundColor": "#ffe971",
     "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#333",
-    "selectedColor": "#ffe300",
+    "selectedColor": "#ffe971",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [
@@ -45,7 +46,6 @@
       }
     ]
   },
-  
   "navigateToMiniProgramAppIdList": [
     "wx1f0b7350ead08d57"
   ],
