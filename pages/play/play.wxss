@@ -1,1 +1,119 @@
 /* pages/play/play.wxss */
+
+@import '../../common.wxss';
+.search{
+  display: block;
+  height: 100rpx;
+  padding: 20rpx 30rpx;
+
+  background: #FFe971;
+  box-shadow: 0 1px 8px rgba(0,0,0,.06);
+}
+.search input{
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 34rpx;
+  background:#FFF;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.command{
+  display: block;
+  margin: 0 auto;
+  padding: 20rpx 30rpx;
+  background: #FFF;
+}
+.command text{
+  display: inline-block;
+  margin:10rpx 20rpx ;
+  padding: 5rpx 20rpx ;
+  font-size: 24rpx;
+  background: #f2f2f2;
+  border-radius: 10rpx;
+}
+.title{
+  display: block;
+  margin: 20rpx 0;
+  padding-left: 10rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #1f1f1f;
+  border-left: 10rpx solid #FFe971;
+  clear: both;
+}
+.item{
+  
+}
+.list{
+  display: block;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  background: #FFF;
+}
+.list-item{
+  display: inline-block;
+  float: left;
+  margin-bottom: 30rpx ;
+}
+.list-title{
+  display: block;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+  margin: 20rpx 0;
+  padding: 10rpx 0;
+}
+.list-more{
+  font-size: 20rpx;
+  float: right;
+  color: #999;
+}
+.list-box{
+  display: inline-block;
+  width: 48%;
+}
+.list-box:nth-child(2n){
+  float: right;
+}
+.list-info{
+  display: -webkit-box;
+  display: box;
+  height: 80rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+.list-img{
+  width: 100%;
+  height: 180rpx;
+}
+.list-img2{
+  width: 100%;
+  height: 300rpx;
+}
+.list-price{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: red;
+  font-weight: bold;
+}
+.list-sale{
+  float: right;
+  color: #999;
+  font-size: 24rpx;
+  font-weight: normal;
+}
+.ad{
+  display: block;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.ad-img{
+  width: 100%;
+  height: 300rpx;
+}

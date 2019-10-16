@@ -35,7 +35,11 @@ Page({
   onShow: function() {
    
   },
-
+  goshop:function(){
+    wx.navigateTo({
+      url: '../shop/shop',
+    })
+  },
   // 下拉刷新回调接口
   onPullDownRefresh: function() {
     this.onLoad()

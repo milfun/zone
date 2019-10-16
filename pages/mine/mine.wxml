@@ -1,5 +1,5 @@
 <view class="contain">
-  <!-- 广告位 -->
+  <!-- User -->
   <view class="user">
     <view class="user-info">
       <image class="user-img" src="../public/images/logo.jpg"></image>
@@ -11,6 +11,7 @@
     </view>
     <view class="clear"></view>
     <view class="holder"></view>
+    <!-- vip card -->
     <view class="vip" bindtap="vip">
       <image class="vip-icon" src="../public/images/vip2.png"></image>
       <view class="vip-txt substring">
@@ -19,7 +20,9 @@
       </view>
       <image class="right-icon" src="../public/images/right.png"></image>
     </view>
+    <!-- vip card End-->
   </view>
+  <!-- User End -->
   <view class="holder"></view>
   <!--订单-->
     <view class="order">

@@ -1,5 +1,5 @@
 /* pages/partern/partern.wxss */
-@import '../../common.wxss';
+@import '../../../common.wxss';
 .reg-ban{
 
 }
@@ -10,9 +10,7 @@
 .reg-form{
   display: block;
   margin: 0 auto;
-  padding: 0 30rpx;
   text-align: center;
-  
 }
 .reg-title{
   display: block;
@@ -23,12 +21,10 @@
 }
 .reg-row{
   display:block;
-  width: 90%;
   height: 80rpx;
-  margin: 30rpx auto;
+  margin: 40rpx 30rpx;
   font-size: 30rpx;
   background: #f2f2f2;
-
   text-align:left;
   border-radius: 10rpx;
 }
@@ -36,8 +32,8 @@
   display: inline-block;
   float: left;
   width: 70%;
-  font-size: 30rpx;
-  line-height: 30rpx;
+  font-size: 34rpx;
+  line-height: 50rpx;
   padding: 10rpx 0 10rpx 20rpx ;
   
 }
@@ -51,6 +47,9 @@
   background: #ffe971;
   border-radius: 0 10rpx 10rpx 0 ;
 }
+.reg-btn{
+  padding: 0 30rpx;
+}
 .reg-sub{
   display: block;
   margin-top: 30rpx;
@@ -61,7 +60,7 @@
 }
 .wechat{
   display: block;
-  margin: 0 40rpx;
+  margin: 0 30rpx;
   margin-top: 30rpx;
   height: 120rpx;
   background: #f2f2f2;

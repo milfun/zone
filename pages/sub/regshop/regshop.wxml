@@ -1,6 +1,6 @@
 <!--pages/regshop/regshop.wxml-->
 <view class="reg-ban">
-  <image src="../public/images/regshop.jpg"></image>
+  <image src="../../public/images/regshop.jpg"></image>
 </view>
 <view class="contain">
   <view class="ref-form">
@@ -22,7 +22,9 @@
       <view class="reg-row">
           <input type="text" placeholder="请输入详细地址"></input>
       </view>
-      <button class="reg-sub">提交信息</button>
+      <view class="reg-btn">
+        <button class="reg-sub">提交信息</button>
+      </view>
   </view>
 
   <view class="holder"></view>

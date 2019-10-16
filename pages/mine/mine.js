@@ -33,13 +33,13 @@ Page({
   //加入合伙人
   join:function(){
     wx.navigateTo({
-      url: '../partern/partern',
+      url: '../sub/partern/partern',
     })
   },
   //加入VIP
   vip: function () {
     wx.navigateTo({
-      url: '../vip/vip',
+      url: '../sub/vip/vip',
     })
   },
   // 下拉刷新回调接口

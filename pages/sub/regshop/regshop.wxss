@@ -1,5 +1,5 @@
 /* pages/regshop/regshop.wxss */
-@import '../../common.wxss';
+@import '../../../common.wxss';
 .reg-ban{
 
 }
@@ -10,8 +10,6 @@
 .reg-form{
   display: block;
   margin: 0 auto;
-  margin: 30rpx;
-  padding: 0 30rpx;
   text-align: center;
 }
 .reg-title{
@@ -23,12 +21,12 @@
 }
 .reg-row{
   display:block;
-  width: 90%;
   height: 80rpx;
-  margin: 30rpx auto;
   font-size: 30rpx;
   background: #f2f2f2;
-
+  text-align:left;
+  border-radius: 10rpx;
+  margin: 40rpx 30rpx;
   text-align:left;
   border-radius: 10rpx;
 }
@@ -51,10 +49,13 @@
   background: #ffe971;
   border-radius: 0 10rpx 10rpx 0 ;
 }
+.reg-btn{
+  padding: 0 30rpx;
+}
 .reg-sub{
   display: block;
   margin-top: 30rpx;
-  width: 90%;
+  width: 100%;
   color: #1f1f1f;
   background: #ffe971;
   border: none;

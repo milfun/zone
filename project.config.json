@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -43,23 +43,38 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/regshop/regshop",
-					"pathName": "pages/regshop/regshop",
+					"id": 1,
+					"name": "pages/sub/regshop/regshop",
+					"pathName": "pages/sub/regshop/regshop",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/sub/partern/partern",
+					"pathName": "pages/sub/partern/partern",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/sub/vip/vip",
+					"pathName": "pages/sub/vip/vip",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/partern/partern",
-					"pathName": "pages/partern/partern",
+					"name": "pages/shop/shop",
+					"pathName": "pages/shop/shop",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/vip/vip",
-					"pathName": "pages/vip/vip",
+					"name": "pages/eat/eat",
+					"pathName": "pages/eat/eat",
+					"query": "",
 					"scene": null
 				}
 			]

@@ -1,0 +1,75 @@
+<!--pages/shop/shop.wxml-->
+<view class="buy-tips">
+    <view class="tips-item">
+      <image class="tips-img" src="../public/images/logo.jpg"></image>
+      <text>MilFun 刚刚购买了本商品</text>
+    </view>
+  </view>
+<view class="shop-ban">
+  <image src="../public/images/regshop.jpg"></image>
+</view>
+<view class="contain">
+  <view class="iterm-info">
+    <view class="iterm-price">￥288.80<text>￥298</text></view>
+    <view class="iterm-want">4912人想买</view>
+    <view class="holder"></view>
+    <view class="iterm-title">【玩转福清】第三节音乐节凯撒考虑， 老师v平时都面临的什么</view>
+    <!-- vip card -->
+    <view class="vip" bindtap="vip">
+      <image class="vip-icon" src="../public/images/vip2.png"></image>
+      <view class="vip-txt substring">
+        <text>超级VIP卡  </text>
+        <text>开通超级VIP年卡再减9.9元</text>
+      </view>
+      <image class="right-icon" src="../public/images/right.png"></image>
+    </view>
+    <!-- vip card End-->
+  </view>
+   <!---->
+  <view class="shop-info">
+    <view class="shop-title">商品信息</view>
+    <view class="shop-phone">商品详情：<text>“全城最好吃的烧烤就在这里”</text></view>
+  </view>
+  <!---->
+
+  <!---->
+  <view class="shop-info">
+    <view class="shop-title">商家信息</view>
+    
+    <text>全福清最好吃的烧烤店、初次一家，多多关照、哈哈哈哈哈哈哈哈哈哈哈</text>
+    <text class="shop-work">营业时间：上午11:00-14:00；晚上16:00-21:30</text>
+    <view class="line"></view>
+    <view class="shop-phone">电话：<text>180 0000 0000</text></view>
+    <view class="shop-phone">地址：<text>福清市万达广场3楼-101号店铺</text></view>
+  </view>
+  <!---->
+  <view class="shop-info">
+    <view class="shop-title">购买须知</view>
+    <text class="shop-desc">商品到期，概不退款</text>
+    <text class="shop-desc">自购买日起，30天内可以使用</text>
+    <text class="shop-desc">需要提前预约</text>
+    <text class="shop-desc">仅限正常吃喝、不可打包，谢绝自带酒水</text>
+  </view>
+  <!---->
+  <!-- CopyRight -->
+  <view class="holder"></view>
+    <view class="copy">
+        <text>Version 1.0.0</text>
+        <text>怪兽研习社 提供技术支持</text>
+        <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+    </view>
+  <!-- CopyRight -->
+  <view class="footfix"></view>
+
+  <!---->
+  <view class="foot-bar">
+      <navigator url="../index/index">
+      <view class="bar-item"><image class="bar-img" src="../public/images/house.png"></image>首页</view></navigator>
+      <navigator url="../index/index">
+      <view class="bar-item"><image class="bar-img" src="../public/images/share.png"></image>分享</view></navigator>
+      <navigator url="../mine/mine">
+      <view class="bar-item"><image class="bar-img" src="../public/images/mine.png"></image>我的</view></navigator>
+      <view class="bar-item2">立即购买</view>
+  </view>
+
+</view>

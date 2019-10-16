@@ -1,13 +1,16 @@
 @import '../../common.wxss';
+page{
+  background: #FFF;
+}
 .menu{
   height: 100rpx;
   padding: 0 30rpx;
-  
-  
+
 }
 .menu-item{
   display: inline-block;
   width: 20%;
+
   text-align: center;
   font-size: 24rpx;
   text-align: center;
@@ -16,17 +19,19 @@
   display: block;
   width: 80rpx;
   height: 80rpx;
-  margin: 0 auto;
+  margin: 20rpx auto;
 }
 
 .list{
   display: block;
   margin-top: 20rpx;
   padding: 0 30rpx;
+  background: #FFF;
 }
 .list-item{
   display: inline-block;
   float: left;
+
 }
 .list-title{
   display: block;
@@ -52,7 +57,7 @@
   display: -webkit-box;
   display: box;
   height: 80rpx;
-  font-size: 28rpx;
+  font-size: 30rpx;
   overflow: hidden;
   -webkit-line-clamp: 2;
   line-clamp: 2;

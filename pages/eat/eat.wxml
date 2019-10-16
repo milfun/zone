@@ -1,11 +1,89 @@
-<header>
-  <text>福清</text>
-</header>
-<view class="clear-top"></view>
-<view class="ba">
+<view class="contain">
+  <!--物品列表-->
+  <view class="search">
+      <input type="search" placeholder="好吃又合你的胃"></input>
+  </view>
+
+  <!--推荐列表-->
+  <view class="command">
+    <view class="title">全部商圈</view>
+   
+    <text>万达广场</text><text>裕荣汇购物中心</text><text>沃尔玛/中环广场</text>
+    <text>街心公园/小桥街</text><text>成龙步行街</text><text>永鸿文化旅游城</text>
+    <text>向高街</text><text>东门/南门</text><text>侨荣城/国际华城/融侨城</text>
+  </view>
+  <view class="line"></view>
+
+  <!--推荐列表-->
+  <view class="list">
+    <view class="list-item">
+      <!--循环 STAR-->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+       <!---->
+      <view class="list-box"  bindtap="goshop">
+          <image class="list-img" src="../public/images/item1.jpg"></image>
+          <text class="list-info">【第一届美食节】福清欢迎你森林砍伐看来当初v考虑的说服力</text>
+          <view class="list-price">￥39.90<text class="list-sale"> 已售：53</text></view>
+      </view>
+      <!--循环 END-->
+      
+    </view>
+    
+  </view>
+  <!--物品列表 END-->
+
+  <!-- CopyRight -->
+  <view class="holder"></view>
+  <view class="copy">
+      <text>Version 1.0.0</text>
+      <text>怪兽研习社 提供技术支持</text>
+      <text>Copyright © 2019 玩转福清 招商热线：180 0000 0000</text>
+  </view>
+  <!-- CopyRight -->
 </view>
 
-    <button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
-    <button bindtap="hddb" class="hddb">
-        <image src="../public/images/totop.png"></image>
-    </button>
+<button class="kefu" openType="contact" sessionFrom="{{userInfo.username}}">客服</button>
+<button bindtap="hddb" class="hddb">
+    <image src="../public/images/totop.png"></image>
+</button>
+

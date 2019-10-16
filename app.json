@@ -2,13 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/eat/eat",
-    "pages/map/map",
+    "pages/unit/map/map",
     "pages/mine/mine",
     "pages/play/play",
-    "pages/webview/webview",
-    "pages/regshop/regshop",
-    "pages/partern/partern",
-    "pages/vip/vip"
+    "pages/unit/webview/webview",
+    "pages/sub/regshop/regshop",
+    "pages/sub/partern/partern",
+    "pages/sub/vip/vip",
+    "pages/shop/shop"
   ],
   "window": {
     "backgroundTextStyle": "light",

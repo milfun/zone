@@ -1,9 +1,9 @@
 @import '../../common.wxss';
 .user{
   display: block;
-  margin-top: 30rpx;
+  padding-top: 30rpx;
   padding: 0 30rpx;
- 
+  
 }
 .user-info{
   display: inline-block;
@@ -113,7 +113,7 @@
   display: block;
   width: 60rpx;
   height: 60rpx;
-  margin: 0 auto;
+  margin: 20rpx auto;
 }
 .order-info{
   padding: 10rpx 20rpx;
@@ -136,7 +136,7 @@
 }
 .func{
   display: block;
-  height: 380rpx;
+
   margin: 0 30rpx;
   background: #FFF;
   border-radius: 10rpx;

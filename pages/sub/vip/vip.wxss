@@ -1,5 +1,5 @@
 /* pages/vip/vip.wxss */
-@import '../../common.wxss';
+@import '../../../common.wxss';
 .vip-top{
   background: #ffe971;
 }
